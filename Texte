@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenCulture - Viagens Sustentáveis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-container">
+  <header class="main-header">
+      <a href="Index.html">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/339b9af881f82dadd7ac20607b1a6955beb7106b?placeholderIfAbsent=true" alt="GreenCulture Logo" class="logo">
+      </a>
+      <div class="header-controls">
+        <div class="user-icon-container" id="user-account">
+          <div>
+            <svg id="user-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-user">
+              <path d="M12 2C11.0111 2 10.0444 2.29324 9.22215 2.84265C8.3999 3.39206 7.75904 4.17295 7.3806 5.08658C7.00216 6.00021 6.90315 7.00555 7.09607 7.97545C7.289 8.94536 7.7652 9.83627 8.46447 10.5355C9.16373 11.2348 10.0546 11.711 11.0245 11.9039C11.9945 12.0969 12.9998 11.9978 13.9134 11.6194C14.827 11.241 15.6079 10.6001 16.1573 9.77785C16.7068 8.95561 17 7.98891 17 7C17 5.67392 16.4732 4.40215 15.5355 3.46447C14.5979 2.52678 13.3261 2 12 2ZM12 10C11.4067 10 10.8266 9.82405 10.3333 9.49441C9.83994 9.16476 9.45542 8.69623 9.22836 8.14805C9.0013 7.59987 8.94189 6.99667 9.05764 6.41473C9.1734 5.83279 9.45912 5.29824 9.87868 4.87868C10.2982 4.45912 10.8328 4.1734 11.4147 4.05764C11.9967 3.94189 12.5999 4.0013 13.1481 4.22836C13.6962 4.45542 14.1648 4.83994 14.4944 5.33329C14.8241 5.82664 15 6.40666 15 7C15 7.79565 14.6839 8.55871 14.1213 9.12132C13.5587 9.68393 12.7956 10 12 10ZM21 21V20C21 18.1435 20.2625 16.363 18.9497 15.0503C17.637 13.7375 15.8565 13 14 13H10C8.14348 13 6.36301 13.7375 5.05025 15.0503C3.7375 16.363 3 18.1435 3 20V21H5V20C5 18.6739 5.52678 17.4021 6.46447 16.4645C7.40215 15.5268 8.67392 15 10 15H14C15.3261 15 16.5979 15.5268 17.5355 16.4645C18.4732 17.4021 19 18.6739 19 20V21H21Z" fill="#456452"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="menu-icon-container" id="menu-toggle">
+          <div>
+            <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-menu">
+              <path d="M4 6H20V8H4V6ZM4 11H20V13H4V11ZM4 16H20V18H4V16Z" fill="#030504"></path>
+            </svg>
+          </div>
+        </div>
+        <nav class="nav-dropdown" id="nav-dropdown">
+          <ul class="nav-menu">
+            <li><a href="Index.html">Início</a></li>
+            <li><a href="nossamissao.html">Sobre Nós</a></li>
+            <li><a href="alojamento.html">Alojamentos</a></li>
+            <li><a href="experiencias.html">Experiências</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="transportes.html">Transportes</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="search-bar">
+        <div>
+          <svg id="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-search">
+            <path d="M10 18C11.775 17.9996 13.4988 17.4054 14.897 16.312L19.293 20.708L20.707 19.294L16.311 14.898C17.405 13.4997 17.9996 11.7754 18 10C18 5.589 14.411 2 10 2C5.589 2 2 5.589 2 10C2 14.411 5.589 18 10 18ZM10 4C13.309 4 16 6.691 16 10C16 13.309 13.309 16 10 16C6.691 16 4 13.309 4 10C4 6.691 6.691 4 10 4Z" fill="#D9D9D9"></path>
+          </svg>
+        </div>
+        <span class="search-text">Viaje connosco</span>
+      </div>
+      <div class="hero-content">
+        <div class="hero-subtitle">Bem-vindos a GreenCulture</div>
+        <h1 class="hero-title">Descubra e viva momentos inesquecíveis</h1>
+        <p class="hero-description">Explore connosco destinos incríveis e faça parte de uma comunidade apaixonada por viagens.</p>
+        <div class="cta-container">
+          <a href="#" class="cta-button">A sua aventura começa a aqui</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2 class="features-title">Lugares incríveis e experiências únicas que esperam por si.</h2>
+      <p class="features-description">A GreenCulture, aposta em viagens sustentáveis de forma responsável. Com opções de turismo que permitem explorar o mundo enquanto se respeita o meio ambiente e as culturas locais. Junte-se a nós e crie memórias para a vida.</p>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div>
+            <svg id="landscape-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-landscape">
+              <path d="M6.00001 40H42C42.3519 40.0001 42.6976 39.9074 43.0022 39.7311C43.3068 39.5549 43.5595 39.3014 43.7348 38.9963C43.9101 38.6911 44.0018 38.3451 44.0006 37.9932C43.9994 37.6413 43.9054 37.2959 43.728 36.992L29.728 12.992C29.01 11.762 26.99 11.766 26.27 12.992L19.732 24.2L17.692 20.936C17.5124 20.6494 17.2629 20.4132 16.9669 20.2494C16.671 20.0857 16.3382 19.9999 16 20C15.6611 20.0003 15.3259 20.0868 15.0296 20.2512C14.7333 20.4156 14.4836 20.6526 14.304 20.94L4.304 36.94C4.11479 37.2427 4.01006 37.5906 4.00069 37.9475C3.99132 38.3044 4.07765 38.6573 4.25072 38.9695C4.42378 39.2818 4.67728 39.542 4.98489 39.7232C5.29249 39.9044 5.64299 40 6.00001 40ZM28 17.97L38.518 36H27.11L22.138 28.026L28 17.97ZM16.002 25.77L22.394 36H9.61L16.002 25.77ZM12 16C15.308 16 18 13.308 18 10C18 6.692 15.308 4 12 4C8.692 4 6.00001 6.692 6.00001 10C6.00001 13.308 8.692 16 12 16ZM12 8C12.5304 8 13.0391 8.21071 13.4142 8.58579C13.7893 8.96086 14 9.46957 14 10C14 10.5304 13.7893 11.0391 13.4142 11.4142C13.0391 11.7893 12.5304 12 12 12C11.4696 12 10.9609 11.7893 10.5858 11.4142C10.2107 11.0391 10 10.5304 10 10C10 9.46957 10.2107 8.96086 10.5858 8.58579C10.9609 8.21071 11.4696 8 12 8Z" fill="#A67C5C"></path>
+            </svg>
+          </div>
+          <h3 class="feature-title">Belezas naturais</h3>
+          <p class="feature-description">Ligações a paisagens deslumbrantes em momentos de laser e tranquilidade.</p>
+        </article>
+
+        <article class="feature-card">
+          <div>
+            <svg id="world-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-world">
+              <path d="M24 4C12.972 4 4 12.972 4 24C4 35.028 12.972 44 24 44C35.028 44 44 35.028 44 24C44 12.972 35.028 4 24 4ZM8 24C8 22.202 8.312 20.476 8.862 18.862L16 26V30L22 36V39.862C14.122 38.872 8 32.144 8 24ZM36.66 33.746C35.354 32.694 33.374 32 32 32V30C32 28.9391 31.5786 27.9217 30.8284 27.1716C30.0783 26.4214 29.0609 26 28 26H20V20C21.0609 20 22.0783 19.5786 22.8284 18.8284C23.5786 18.0783 24 17.0609 24 16V14H26C27.0609 14 28.0783 13.5786 28.8284 12.8284C29.5786 12.0783 30 11.0609 30 10V9.178C35.856 11.556 40 17.3 40 24C39.9996 27.5294 38.8245 30.9583 36.66 33.746Z" fill="#A67C5C"></path>
+            </svg>
+          </div>
+          <h3 class="feature-title">Cultura local</h3>
+          <p class="feature-description">Mergulhar na história e tradições dos destinos a visitar.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="kitesurfing-container">
+            <div>
+              <svg id="kitesurfing-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="kitesurfing">
+                <path d="M33.936 20.5784C37.8187 15.8007 37.4172 9.61894 37.0078 6.95273C36.8948 6.21844 36.3488 5.18557 35.8289 4.65563C33.1674 1.94772 31.0842 0.794459 29.8402 0.304886C29.1489 0.0332367 29.0312 0.31902 29.4777 0.912809C30.2947 1.99877 31.3848 4.11564 31.5946 7.81746C31.8313 11.9967 30.1374 17.0999 29.2646 19.4151C29.0024 20.1104 29.229 21.0652 29.8988 21.3867C32.4418 22.6065 33.936 20.5784 33.936 20.5784Z" fill="#A67C5C"></path>
+                <path d="M24.5979 0.122848C20.8591 0.890118 18.9581 3.63031 18.6905 5.62271C18.6542 5.89773 18.7336 6.33548 18.8519 6.58568C19.1667 7.24803 19.8646 8.40593 20.9607 8.54784C21.2344 8.58412 21.6183 8.38104 21.816 8.18941C22.9087 7.13369 26.3321 4.01356 29.6433 2.96725C29.6433 2.96725 28.6614 -0.710312 24.5979 0.122848Z" fill="#A67C5C"></path>
+                <path d="M9.64502 17.5437C11.1328 17.5437 12.3389 16.3376 12.3389 14.8499C12.3389 13.3621 11.1328 12.156 9.64502 12.156C8.15725 12.156 6.95117 13.3621 6.95117 14.8499C6.95117 16.3376 8.15725 17.5437 9.64502 17.5437Z" fill="#A67C5C"></path>
+                <path d="M6.58434 18.1316L3.00495 24.5648C2.45089 25.5465 2.79581 26.7973 3.7668 27.3494L11.0016 31.7142C11.2565 31.8588 11.6249 32.1997 11.7904 32.4438L12.3364 33.2474H12.3324C7.88218 33.5836 5.98999 34.4027 5.18707 35.0294C4.85087 35.2923 4.6686 35.7959 4.6686 36.1362V36.9667C4.6686 37.3076 4.8508 37.812 5.18707 38.0736C6.01552 38.7204 8.39932 39.83 15.0471 39.9893C15.3484 39.9967 15.6429 40.0001 15.9307 40.0001C22.7001 40.0001 25.7395 38.0513 26.7314 37.2141C26.9244 37.0514 27.0347 36.81 27.0347 36.5524C27.0347 36.2935 26.9244 36.0528 26.7314 35.8908C25.7887 35.0946 22.9092 33.2313 16.5662 33.1136L16.1015 33.1048L14.9772 30.8683C14.7923 30.4971 14.3935 30.0015 14.0707 29.7399L8.74495 25.4108C8.63666 25.3227 8.61317 25.1525 8.69453 25.0383L9.07384 24.4996C9.32327 24.7552 9.68774 24.9266 10.0294 24.9266H17.9514C18.0032 24.9266 18.1027 24.9232 18.2008 24.899L20.8261 28.2531C20.9585 28.4226 21.1562 28.5113 21.3559 28.5113C21.5005 28.5113 21.6471 28.465 21.7695 28.3681C22.062 28.1395 22.1138 27.7165 21.8845 27.4247L15.8326 19.6916C15.6033 19.3991 15.181 19.3459 14.8892 19.5767C14.5966 19.8053 14.5449 20.2282 14.7742 20.5201L16.6887 22.9664C16.4701 22.9194 16.2274 22.8938 15.9611 22.8938H11.605C11.0657 22.8938 10.3697 22.7486 10.3052 22.6336L8.91653 19.5262C8.91449 19.5215 8.77329 19.266 8.51781 19.0461L9.34964 19.3736C9.40814 19.4583 9.44042 19.5168 9.44176 19.5188L10.5063 21.8958L10.743 21.559C10.9051 21.3303 10.9353 21.0136 10.8283 20.742L13.8832 19.3184C14.2222 19.1396 14.5833 18.7146 14.7043 18.3542L16.7034 12.9626C16.9616 12.2666 16.7377 11.5424 16.2025 11.346C15.6678 11.149 15.0216 11.5531 14.7594 12.2478L12.9102 17.1472C12.812 17.4564 12.4583 17.7625 12.1275 17.8189L9.34626 18.6823L8.02627 17.9339C7.43762 17.5432 6.88286 17.603 6.58434 18.1316Z" fill="#A67C5C"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 class="feature-title">Aventura e emoção</h3>
+          <p class="feature-description">Experiências em atividades emocionantes para partilhar como memórias inesquecíveis.</p>
+        </article>
+      </div>
+
+      <div class="cta-container">
+        <a href="#" class="cta-button">A sua aventura começa a aqui</a>
+      </div>
+    </section>
+
+    <section class="destinations-section">
+      <h2 class="destinations-title">Destinos inspiradores</h2>
+
+      <article class="destination-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac6d41aeb9a705881649a37b719fb8e53e4b1ac4?placeholderIfAbsent=true" alt="Destino natural" class="destination-image">
+        <div class="destination-content">
+          <h3 class="destination-name">Natureza</h3>
+          <p class="destination-description">
+            Certas narrativas têm o poder de elevar a mente, transformar perspetivas e alterar profundamente a forma como pensamos. Os acampamentos conectam as pessoas à essência da natureza. São ambientes onde o tempo parece fluir lentamente, e tudo ao redor se renova, emanando uma sensação de liberdade e plenitude. Inseridos no coração da natureza, estes lugares revelam descobertas extraordinárias sobre o mundo e o papel da humanidade nele, convidando-nos a refletir sobre o que realmente importa.
+          </p>
+          <div class="cta-container">
+            <a href="#" class="cta-button">Descubra mais</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/938d7c246bec2f5abbfc83038a889fd02cb98a8a?placeholderIfAbsent=true" alt="Escapada urbana" class="destination-image">
+        <div class="destination-content">
+          <h3 class="destination-name">Escapadas urbanas</h3>
+          <p class="destination-description">
+            Explore Singapura, a energia de Nova Iorque e os fascinantes templos de Banguecoque. Com a GreenCulture, encontre alojamentos sustentáveis e experiências culturais autênticas que o conectam à essência de cada cidade, preservando o meio ambiente e valorizando as comunidades locais. Viaje de forma consciente e vivencie momentos inesquecíveis.
+          </p>
+          <div class="cta-container">
+            <a href="#" class="cta-button">Descubra mais</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd6b8becb35688ffc70b999270e6718864f1f826?placeholderIfAbsent=true" alt="Montanhas" class="destination-image">
+        <div class="destination-content">
+          <h3 class="destination-name">As montanhas à tua espera</h3>
+          <p class="destination-description">
+            Com a chegada da primavera, as montanhas cobertas de neve convidam a experiências sustentáveis. O GreenCulture torna o planeamento dessas viagens mais fáceis, conectando a neve, o céu azul e a cultura local de maneira consciente. Desfrute de momentos de tranquilidade, sabendo que a sua viagem contribui para a preservação do planeta e o enriquecimento das comunidades locais.
+          </p>
+          <div class="cta-container">
+            <a href="#" class="cta-button">Descubra mais</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="essence-section">
+      <h2 class="essence-title">Ligada à essência de cada destino...</h2>
+      <p class="essence-description">
+        A GreenCulture abre portas para experiências únicas, permitindo ligações profundas com culturas locais. Explore lugares inspiradores e descubra a verdadeira alma de cada destino.
+      </p>
+      <div class="cta-container">
+        <a href="#" class="cta-button">Saber mais</a>
+      </div>
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0730bf4ac286f501fa64888e6e7183a33e0db262?placeholderIfAbsent=true" alt="Essência dos destinos" class="essence-image">
+    </section>
+
+    <section class="world-section">
+      <h2 class="world-title">GreenCulture e o mundo</h2>
+      <p class="world-description">
+        Descubra todos os fascinantes destinos ao redor do mundo e embarque em aventuras inesquecíveis! Desde as praias paradisíacas até as montanhas majestosas, há uma infinidade de lugares incríveis sua espera
+      </p>
+
+      <article class="blog-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/51cd8bbb2da0f2ed4ae882f584f22e1c7af8348c?placeholderIfAbsent=true" alt="Portugal" class="blog-image">
+        <div class="blog-content">
+          <p class="blog-location">Portugal</p>
+          <h3 class="blog-title">Pedras Salgadas Spa &amp; Nature Park</h3>
+          <div class="cta-container">
+            <a href="#" class="cta-button">Reserve aqui</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d07d9d91f64deabfd5fdcdbd6b8e7308dfcd896e?placeholderIfAbsent=true" alt="Spitzbergen" class="blog-image">
+        <div class="blog-content">
+          <p class="blog-location">Spitzbergen</p>
+          <h3 class="blog-title">Funken Lodge</h3>
+          <div class="cta-container">
+            <a href="#" class="cta-button">Reserve aqui</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/52a5aafe9510bd3ecfca51a018370f55760ce5c1?placeholderIfAbsent=true" alt="Tailândia" class="blog-image">
+        <div class="blog-content">
+          <p class="blog-location">Tailândia</p>
+          <h3 class="blog-title">Imperial river house</h3>
+          <div class="cta-container">
+            <a href="#" class="cta-button">Reserve aqui</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="cta-container">
+        <a href="#" class="cta-button">A sua aventura começa a aqui</a>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-top">
+        <div class="footer-logo-container">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a649c6f377ff8892ab517b244cc006dbc29a37f?placeholderIfAbsent=true" alt="GreenCulture Logo" class="footer-logo-image">
+        </div>
+        <div class="footer-links">
+          <a href="#" class="footer-link">Sobre</a>
+          <a href="#" class="footer-link">Contactos</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-divider"></div>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">
+            <svg id="facebook-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-facebook">
+              <path d="M22 12.3038C22 6.74719 17.5229 2.24268 12 2.24268C6.47715 2.24268 2 6.74719 2 12.3038C2 17.3255 5.65684 21.4879 10.4375 22.2427V15.2121H7.89844V12.3038H10.4375V10.0872C10.4375 7.56564 11.9305 6.1728 14.2146 6.1728C15.3088 6.1728 16.4531 6.36931 16.4531 6.36931V8.84529H15.1922C13.95 8.84529 13.5625 9.6209 13.5625 10.4166V12.3038H16.3359L15.8926 15.2121H13.5625V22.2427C18.3432 21.4879 22 17.3257 22 12.3038Z" fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg id="instagram-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-instagram">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M16 3.24268H8C5.23858 3.24268 3 5.48126 3 8.24268V16.2427C3 19.0041 5.23858 21.2427 8 21.2427H16C18.7614 21.2427 21 19.0041 21 16.2427V8.24268C21 5.48126 18.7614 3.24268 16 3.24268ZM19.25 16.2427C19.2445 18.0353 17.7926 19.4872 16 19.4927H8C6.20735 19.4872 4.75549 18.0353 4.75 16.2427V8.24268C4.75549 6.45003 6.20735 4.99817 8 4.99268H16C17.7926 4.99817 19.2445 6.45003 19.25 8.24268V16.2427ZM16.75 8.49268C17.3023 8.49268 17.75 8.04496 17.75 7.49268C17.75 6.9404 17.3023 6.49268 16.75 6.49268C16.1977 6.49268 15.75 6.9404 15.75 7.49268C15.75 8.04496 16.1977 8.49268 16.75 8.49268ZM12 7.74268C9.51472 7.74268 7.5 9.7574 7.5 12.2427C7.5 14.728 9.51472 16.7427 12 16.7427C14.4853 16.7427 16.5 14.728 16.5 12.2427C16.5027 11.0484 16.0294 9.90225 15.1849 9.05776C14.3404 8.21327 13.1943 7.74002 12 7.74268ZM9.25 12.2427C9.25 13.7615 10.4812 14.9927 12 14.9927C13.5188 14.9927 14.75 13.7615 14.75 12.2427C14.75 10.7239 13.5188 9.49268 12 9.49268C10.4812 9.49268 9.25 10.7239 9.25 12.2427Z" fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg id="twitter-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-x">
+              <path d="M17.1761 4.24268H19.9362L13.9061 11.0201L21 20.2427H15.4456L11.0951 14.6493L6.11723 20.2427H3.35544L9.80517 12.9935L3 4.24268H8.69545L12.6279 9.3553L17.1761 4.24268ZM16.2073 18.6181H17.7368L7.86441 5.78196H6.2232L16.2073 18.6181Z" fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg id="linkedin-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 3.24268C3.67157 3.24268 3 3.91425 3 4.74268V19.7427C3 20.5711 3.67157 21.2427 4.5 21.2427H19.5C20.3284 21.2427 21 20.5711 21 19.7427V4.74268C21 3.91425 20.3284 3.24268 19.5 3.24268H4.5ZM8.52076 7.2454C8.52639 8.20165 7.81061 8.79087 6.96123 8.78665C6.16107 8.78243 5.46357 8.1454 5.46779 7.24681C5.47201 6.40165 6.13998 5.72243 7.00764 5.74212C7.88795 5.76181 8.52639 6.40728 8.52076 7.2454ZM12.2797 10.0044H9.75971H9.7583V18.5643H12.4217V18.3646C12.4217 17.9847 12.4214 17.6047 12.4211 17.2246C12.4203 16.2108 12.4194 15.1959 12.4246 14.1824C12.426 13.9363 12.4372 13.6804 12.5005 13.4455C12.7381 12.568 13.5271 12.0013 14.4074 12.1406C14.9727 12.2291 15.3467 12.5568 15.5042 13.0898C15.6013 13.423 15.6449 13.7816 15.6491 14.129C15.6605 15.1766 15.6589 16.2242 15.6573 17.2719C15.6567 17.6417 15.6561 18.0117 15.6561 18.3815V18.5629H18.328V18.3576C18.328 17.9056 18.3278 17.4537 18.3275 17.0018C18.327 15.8723 18.3264 14.7428 18.3294 13.6129C18.3308 13.1024 18.276 12.599 18.1508 12.1054C17.9638 11.3713 17.5771 10.7638 16.9485 10.3251C16.5027 10.0129 16.0133 9.81178 15.4663 9.78928C15.404 9.78669 15.3412 9.7833 15.2781 9.77989C14.9984 9.76477 14.7141 9.74941 14.4467 9.80334C13.6817 9.95662 13.0096 10.3068 12.5019 10.9241C12.4429 10.9949 12.3852 11.0668 12.2991 11.1741L12.2797 11.1984V10.0044ZM5.68164 18.5671H8.33242V10.01H5.68164V18.5671Z" fill="white"></path>
+            </svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg id="youtube-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-youtube">
+              <path d="M21.5933 7.20301C21.4794 6.78041 21.2568 6.39501 20.9477 6.08518C20.6386 5.77534 20.2537 5.55187 19.8313 5.43701C18.2653 5.00701 12.0003 5.00001 12.0003 5.00001C12.0003 5.00001 5.73633 4.99301 4.16933 5.40401C3.74725 5.52415 3.36315 5.75078 3.0539 6.06214C2.74464 6.3735 2.52062 6.75913 2.40333 7.18201C1.99033 8.74801 1.98633 11.996 1.98633 11.996C1.98633 11.996 1.98233 15.26 2.39233 16.81C2.62233 17.667 3.29733 18.344 4.15533 18.575C5.73733 19.005 11.9853 19.012 11.9853 19.012C11.9853 19.012 18.2503 19.019 19.8163 18.609C20.2388 18.4943 20.6241 18.2714 20.934 17.9622C21.2439 17.653 21.4677 17.2682 21.5833 16.846C21.9973 15.281 22.0003 12.034 22.0003 12.034C22.0003 12.034 22.0203 8.76901 21.5933 7.20301ZM9.99633 15.005L10.0013 9.00501L15.2083 12.01L9.99633 15.005Z" fill="white"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="footer-info">
+          <a href="#" class="footer-policy">Política de Privacidade</a>
+          <a href="#" class="footer-terms">Termos de Serviço</a>
+          <p class="footer-copyright">© Copyright 2025 · GreenCulture · All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
